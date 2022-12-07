@@ -157,7 +157,7 @@ or $ spec
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
 
 👤 **Karam Fouad**
