@@ -49,7 +49,7 @@ REQUIRED SECTIONS:
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Recipe App <a name="about-project"></a>
+# 📖 Real-Search-app <a name="about-project"></a>
 
 > The Ruby on Rails project is about building a real search web application where you can manage your search: you have a list of transactions associated with a category so that you can see how many articles result.
 
