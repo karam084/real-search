@@ -27,8 +27,8 @@ development:
   database: realtime_search_developments
   username: postgres
   password: Toleen123
-  host: 127.0.0.1
-  port: 0.0.0.0
+ host: 0.0.0.0
+  port: 3000
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -65,8 +65,8 @@ test:
   database: realtime_search_tests
   username: postgres
   password: Toleen123
-  host: 127.0.0.1
-  port: 0.0.0.0
+  host: 0.0.0.0
+  port: 3000
 
 # As with config/credentials.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -93,14 +93,5 @@ production:
   database: realtime_search_production
   username: realtime_search
   password: <%= ENV["REALTIME_SEARCH_DATABASE_PASSWORD"] %>
-
-{
-  "$schema": "https://railway.app/railway.schema.json",
-  "build": {
-    "builder": "NIXPACKS"
-  },
-  "deploy": {
-    "restartPolicyType": "ON_FAILURE",
-    "restartPolicyMaxRetries": 10
-  }
-}
+   host: 0.0.0.0
+  port: 3000
