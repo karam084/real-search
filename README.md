@@ -1,19 +1,5 @@
 <a name="Real-Search-app"></a>
 
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-
 <div align="center">
 
   <img src="./app/assets/images/recipe_erd_2_members.png" alt="logo" width="140"  height="auto" />
